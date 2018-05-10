@@ -19,7 +19,7 @@ def triangle(a, b, c)
   end
 
   if a >= b + c || b >= a + c || c >= a + b
-    #Triangle Inexquality
+    #Triangle Inequality
     raise TriangleError
   end
 
